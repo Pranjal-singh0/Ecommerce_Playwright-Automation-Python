@@ -93,4 +93,4 @@ pytest tests/ -v
 Based on the original project by [Pranjal](https://github.com/Pranjal-singh0/Ecommerce_Playwright-Automation-Python).
 
 ## License
-MIT
+MIT(https://github.com/Pranjal-singh0/Ecommerce_Playwright-Automation-Python/blob/main/LICENSE)
