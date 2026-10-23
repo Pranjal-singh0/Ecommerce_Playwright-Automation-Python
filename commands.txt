@@ -1,0 +1,17 @@
+# Default: headless = True
+pytest tests/
+
+# Enable headed mode explicitly
+pytest tests/ --headed
+
+# Combine with other options
+pytest tests/ --browser=firefox --headed --slowmo=250
+
+# Rerun failed tests
+pytest -n auto --reruns 2 --reruns-delay 1
+pytest --reruns 3 --reruns-delay 2
+
+# Run Tests in Parallel 
+pytest -n 4
+pytest -n auto
+

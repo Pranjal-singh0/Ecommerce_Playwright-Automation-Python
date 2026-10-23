@@ -1,0 +1,17 @@
+# # Step-by-Step Setup Guide
+
+1. Clone the Code to local machine:
+
+https://github.com/NAVEENINTEL/python-pytest-playwright-framework.git
+
+2. Install Python & Create Virtual Environment
+python -m venv venv 
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install Required Packages
+pip install pytest
+pip install playwright
+playwright install
+pip install -r requirements.txt
+
+4. Use Commands in  Commands.txt to run the scripts

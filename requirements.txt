@@ -1,0 +1,10 @@
+pytest
+playwright
+pytest-html
+python-dotenv
+loguru
+faker
+pytest-xdist
+pytest-rerunfailures
+PyYAML
+allure-pytest
